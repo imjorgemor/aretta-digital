@@ -4,7 +4,7 @@
     --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
         "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
         "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
-    --backround-primary-white: #fff;
+    --backround-primary-white: #FFFDF8;
     --background-dark-black: #000;
     --font-primary-blue: #2f509e;
 }

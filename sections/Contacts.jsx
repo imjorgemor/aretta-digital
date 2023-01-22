@@ -5,7 +5,7 @@ export const Contacts = () => {
     return (
         <div
             id="contact"
-            className='app-container background--black relative'
+            className='app-container background--blue relative'
         >
             <footer className='contact-cover'>
                 <div>

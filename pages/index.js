@@ -4,6 +4,8 @@ import localFont from '@next/font/local';
 const myFont = localFont({ src: '../public/fonts/Suisse.woff2' })
 
 
+
+
 export default function Home() {
     return (
         <>
