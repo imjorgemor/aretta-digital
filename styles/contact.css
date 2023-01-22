@@ -1,0 +1,60 @@
+.contact-cover {
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+
+.contact-cover h2 {
+    max-width: 1100px;
+    padding: 0px 24px;
+    margin: 80px auto 16px;
+}
+
+.contact-wrapper {
+    height: 75%;
+    max-width: 1100px;
+    padding: 64px 0px 0px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 64px;
+}
+
+.contact-logo {
+    margin: 0 auto 0px 0px;
+    padding: 0px 24px;
+    max-width: 80vmin;
+}
+
+
+.contact-cover > p {
+    color: #fff;
+}
+
+.contact-details {
+    padding: 0px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.contact-details div a {
+    color: #fff;
+    font-size: 6vmin;
+    text-decoration: underline;
+}
+
+@media  (min-width:426px){
+    .contact-cover h2 {
+        padding: 0px 40px;
+    }
+    .contact-logo {
+        padding: 0px 40px;
+    }
+    .contact-details {
+        padding: 0px 40px;
+    }
+}

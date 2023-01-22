@@ -1,0 +1,51 @@
+.how-cover {
+    min-height: 100vh;
+    width: 100%;
+    max-width: var(--max-width);
+    margin: auto;
+    margin-bottom: 3rem;
+    padding: 0 24px 40px;
+}
+
+.how-cover h2 {
+    margin: 80px auto 40px;
+    max-width: var(--max-width);
+}
+
+.how-element {
+    margin-top: 72px;
+}
+
+.how-element-number {
+    font-size: 30vmin;
+    margin: 0;
+    line-height: 24vmin;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+}
+
+.how-element-text {
+    max-width: 60ch;
+}
+
+.how-element-text p {
+    font-size: 4vmin;
+    color: inherit;
+}
+
+.how-hide {
+    opacity: 0;
+}
+
+.how-show {
+    opacity: 1;
+    transition: opacity 1 ease;
+}
+
+@media (min-width:426px){
+    .how-cover {
+        padding: 0 40px 40px;
+    }
+
+
+}

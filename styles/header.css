@@ -1,0 +1,103 @@
+.home-cover {
+    height: 100vh;
+    max-width: var(--max-width);
+    max-width: var(--max-width);
+    z-index: -1;
+    margin: auto auto;
+    overflow-x: hidden;
+}
+
+.home-logo {
+    margin: auto;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.home-caption h1{
+    margin: auto;
+    text-align: center;
+    font-size: 10vmin;
+    font-weight: 600;
+    line-height: 11vmin;
+    padding-top: .5rem;
+    max-width: 100vw;
+    transition: showTopText .5s ease;
+    overflow-x: hidden;
+}
+
+@keyframes showTopText {
+    0% {
+        transform: translate3d(0, 100%, 0);
+    }
+
+    100% {
+        transform: translate3d(0, 0, 0);
+    }
+}
+@keyframes showBottomText {
+    0% {
+        transform: translate3d(0, -100%, 0);
+    }
+    100% {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.animated-title {
+    height: 60%;
+    left: 50%;
+    position: absolute;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    width: 90vmin;
+    display: flex;
+    align-items: center;
+}
+
+.animated-title > div {
+    height: 48%;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    display: flex;
+}
+
+.animated-title > div div {
+    position: absolute;
+    display: flex;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.animated-title > div.text-top {
+    top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.animated-title > div.text-top div {
+    animation: showTopText 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    bottom: 0;
+    transform: translate(0, 100%);
+}
+
+.animated-title > div.text-bottom {
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.animated-title > div.text-bottom div {
+    animation: showBottomText 0.5s;
+    animation-delay: 1.75s;
+    animation-fill-mode: forwards;
+    top: 0;
+    transform: translate(0, -100%);
+}
+
+.hide {
+    visibility: hidden;
+}

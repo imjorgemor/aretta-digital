@@ -1,0 +1,52 @@
+.what-cover {
+    min-height: 100vh;
+    width: 100%;
+    max-width: var(--max-width);
+    margin: auto;
+    margin-bottom: 3rem;
+    padding: 0 24px 40px;
+}
+
+.what-cover h2 {
+    margin: 80px auto 16px;
+    max-width: var(--max-width);
+}
+
+.what-cover div {
+    margin-top: 56px;
+}
+
+.what-element {
+    font-size: 10vmin;
+    font-weight: 600;
+    margin-bottom: 200px;
+    color: var(--font-primary-blue);
+    opacity: 0;
+}
+
+.what-element:last-child {
+    margin-bottom: 40px;
+}
+
+.what-animation {
+    opacity: 1;
+    transition-property: all;
+    transition-duration: 1.5s;
+    transition-timing-function: ease-out;
+    margin-bottom: 40px;
+}
+
+.what-element-fixed {
+    font-size: 10vmin;
+    font-weight: 600;
+    margin-bottom: 40px;
+    color: var(--font-primary-blue);
+    opacity: 1;
+}
+
+@media (min-width:426px){
+    .what-cover {
+        padding: 0 40px 40px;
+    }
+
+}
