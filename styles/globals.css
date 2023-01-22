@@ -151,6 +151,17 @@ ul {
     padding-right: 8px;
 }
 
+.app-navbar ul li a span {
+    font-size: .8rem;
+}
+
 .app-navbar ul li a:hover {
     background-size: 100% 47%;
+}
+
+@media (min-width:768px){
+    .app-navbar ul li a span {
+        font-size: 1rem;
+    }
+
 }
