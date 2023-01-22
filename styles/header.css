@@ -100,9 +100,7 @@
     visibility: hidden;
 }
 
-.background-sea{
-    z-index: 0;
-}
+
 
 .background-sea img{
     object-fit: cover;
