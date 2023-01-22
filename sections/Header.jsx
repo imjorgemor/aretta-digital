@@ -1,22 +1,12 @@
 import { useEffect, useRef, useState } from "react";
 import Image from 'next/image';
 import bkLogo from '../public/ARETTABK.png';
-import coLogo from '../public/ARETTACOLOR.png';
+import backSea from '../public/sea.jpg';
 
 export const Header = () => {
     const [show, setShow] = useState(false);
     const containerRef = useRef(null)
     const elementRef = useRef(null);
-    const [background, setBackground] = useState("white")
-
-    useEffect(() => {
-        const backgroundColor = () => {
-            const color = Math.floor(Math.random() * 2 + 1)
-            if (color === 1) setBackground("white")
-            if (color === 2) setBackground("color")
-        }
-        backgroundColor()
-    }, [])
 
     useEffect(() => {
         const observer = new IntersectionObserver(entries => {
@@ -57,11 +47,7 @@ export const Header = () => {
                     <div className="text-top">
                         <div>
                             <span className='home-logo'>
-                                {
-                                    background === "white"
-                                        ? <Image src={bkLogo} alt="areta main logo" priority />
-                                        : <Image src={coLogo} alt="areta main logo" priority />
-                                }
+                                <Image src={bkLogo} alt="areta main logo" priority />
                             </span>
                         </div>
                     </div>
@@ -70,11 +56,13 @@ export const Header = () => {
                         className="text-bottom">
                         <div
                             className='home-caption'
-                        ><h1 style={background === "color" ? {color:"#380A6C"}: {color:"#000"}}>All your brand can be</h1></div>
+                        ><h1>All your brand can be</h1></div>
                     </div>
+                </div>
+                <div className="background-sea">
+                    <Image src={backSea} alt="background sea" priority />
                 </div>
             </header>
         </div>
     )
 }
-

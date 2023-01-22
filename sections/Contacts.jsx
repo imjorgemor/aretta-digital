@@ -18,10 +18,10 @@ export const Contacts = () => {
                     </div>
                     <div className='contact-details'>
                         <div>
-                            <a href='tel:+34611529536'>+34 611 529 536</a>
+                            <a href='mailto:martagabriel82@hotmail.com'>Marta Gabriel</a>
                         </div>
                         <div>
-                            <a href='mailto:martagabriel82@hotmail.com'>martagabriel82@hotmail.com</a>
+                            <a href='tel:+34611529536'>+34 611 529 536</a>
                         </div>
                     </div>
                 </div>

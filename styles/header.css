@@ -1,7 +1,5 @@
 .home-cover {
     height: 100vh;
-    max-width: var(--max-width);
-    max-width: var(--max-width);
     z-index: -1;
     margin: auto auto;
     overflow-x: hidden;
@@ -100,4 +98,14 @@
 
 .hide {
     visibility: hidden;
+}
+
+.background-sea{
+    z-index: 0;
+}
+
+.background-sea img{
+    object-fit: cover;
+    height: 100vh;
+    z-index: 1;
 }

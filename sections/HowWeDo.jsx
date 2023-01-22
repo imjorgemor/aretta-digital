@@ -66,7 +66,7 @@ export const HowWeDo = () => {
                             <p className="how-element-number">03</p>
                             <div className="how-element-text">
                                 <h4>Measurable KPI</h4>
-                                <p>We develop marketing actions to ensure the brand is  seen and in intenracion with theys potential consumers </p>
+                                <p>We develop marketing actions to ensure the brand is  seen and in intenracion with their potential consumers </p>
                             </div>
                         </div>
                     </li>

@@ -7,6 +7,7 @@
     --backround-primary-white: #FFFDF8;
     --background-dark-black: #000;
     --font-primary-blue: #2f509e;
+    --font-primary-blue-light: #2f509e8a; 
 }
 
 * {
@@ -136,14 +137,14 @@ ul {
         linear,
         left top,
         right top,
-        color-stop(0, var(--font-primary-blue)),
-        color-stop(0, var(--font-primary-blue))
+        color-stop(0, var(--font-primary-blue-light)),
+        color-stop(0, var(--font-primary-blue-light))
     );
 
     background-image: linear-gradient(
         90deg,
-        var(--font-primary-blue),
-        var(--font-primary-blue) 0
+        var(--font-primary-blue-light),
+        var(--font-primary-blue-light) 0
     );
     background-position: 0 8px;
     background-repeat: no-repeat;

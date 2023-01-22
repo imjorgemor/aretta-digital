@@ -10,6 +10,10 @@
     font-weight: 600;
 }
 
+.who-image {
+    
+}
+
 @media (min-width:426px){
     .who-cover {
         padding: 3rem 40px; 
